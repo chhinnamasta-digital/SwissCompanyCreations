@@ -1,0 +1,58 @@
+.signUp-form-outlet{
+    height: 100%;
+    // z-index: 99;    
+    opacity: 0;
+    transition: all linear 0.5s;  
+    transition-delay: 0.5s;  
+    .div-block-11{
+        top: 50%;
+        left: 50%;
+        bottom: inherit;
+        right: inherit;
+        transform: translate(-50%, -50%);
+        margin: auto;
+        height: 700px;    
+        padding: 30px 49px;
+        .heading-2{
+            cursor: pointer;
+        }
+    }
+    .heading-copy{        
+        margin-bottom: 15px;
+    }
+    .text-field-2{
+        padding: 25px 32px 25px;
+        margin-bottom: 12px;
+    }
+    
+    .submit-button{
+        margin-top: 30px;
+        padding: 14px 60px;
+    }
+    .have-an-account-already-login{
+        margin-top: 20px;
+    }
+    .w-form-done, .w-form-fail{
+        padding: 10px 20px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        font-family: 'Inter';
+    }
+    .w-form-done{
+        background: #a6df63;
+    }
+}
+.showPopup{   
+    opacity: 1;
+    // transition: all linear 0.5s; 
+}
+.signUp-form-close{
+    opacity: 0;
+}
+
+// Loging Form
+#loging-form{
+    display: none;
+}
